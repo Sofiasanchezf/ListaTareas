@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi&display=swap" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Lista de Tareas</h1>
+    </div>
+    <div class="nueva-tarea">
+        <label><input id="nueva" placeholder="Añade una tarea" type="text"></label>
+    <button onclick='annadirTarea()'>Añadir</button>
+    </div>
+    <div class="tablero">
+        <div id="hacer" class="lista">
+            <h2>Por hacer</h2>
+            <!-- <div class="tarea" draggable="true" id="tarea0">
+                <p>tarea</p>
+                <button onclick="eliminarTarea()">Eliminar</button>
+            </div> -->
+        </div>
+
+        <div class="lista">
+            <h2>En proceso</h2>
+        </div>
+        <div class="lista">
+            <h2>Terminadas</h2>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

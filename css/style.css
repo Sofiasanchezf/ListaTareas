@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #aaffc3;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jaldi", sans-serif;
+}
+
+h2 {
+    font-size: 15pt;
+}
+
+.tablero {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lista {
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    height: 450px;
+    width: 370px;
+    background-color: white;
+    margin: 2em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titulo {
+    font-size: 15pt;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    background-color: #3DD679;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.tarea {
+    margin-top: 1em;
+    background-color:#DADADA;
+    width: 80%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.nueva-tarea {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
